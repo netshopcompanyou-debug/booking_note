@@ -1,0 +1,18 @@
+{
+  "name": "appsheet-gemini-booking-carrier",
+  "version": "1.0.0",
+  "description": "Hệ thống giả lập Hãng tàu quốc tế - Phát hành Booking Note tự động dựa trên yêu cầu học viên",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "axios": "^1.6.8",
+    "@google/generative-ai": "^0.2.1",
+    "dotenv": "^16.4.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
